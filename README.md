@@ -102,3 +102,42 @@ muestra este comando.
 
 ## ✅ Entrega
 Link de tu repositorio (fork) + pantallazo de "git log --oneline"
+
+
+#### TALLER VERSIONADO, STASH Y TAG ####
+
+#----------- ¿qué es "Semantic Versioning"? Documenta en tu README 
+los 3 números con un ejemplo de cada uno. ------------------------
+
+(SemVer) es una forma estándar de ponerle versiones a un programa o proyecto para indicar qué tan grandes son los cambios 
+que se hicieron. 
+
+Se escribe así:
+MAJOR.MINOR.PATCH
+
+1. MAJOR → Cambios grandes: Se aumenta el primer número cuando hay cambios importantes que pueden hacer que cosas anteriores
+Ejemplo:
+
+Antes: 1.0.0
+Después: 2.0.0
+
+👉 Ejemplo: una tienda virtual cambia completamente su sistema de usuarios y las funciones antiguas ya no funcionan igual.
+
+
+2. MINOR → Nuevas funciones: Se aumenta el segundo número cuando agregas una nueva función, 
+pero sin romper lo que ya funcionaba.
+Ejemplo:
+
+Antes: 2.0.0
+Después: 2.1.0
+
+👉 Ejemplo: a la tienda virtual le agregas una función nueva para aplicar cupones de descuento, pero todo lo anterior sigue funcionando.
+
+3. PATCH → Correcciones: Se aumenta el tercer número cuando haces correcciones de errores o pequeños arreglos, sin agregar cambios importantes.
+Ejemplo:
+
+Antes: 2.1.0
+Después: 2.1.1
+
+👉 Ejemplo: corriges un error que hacía que el precio total del carrito se calculara mal.
+
