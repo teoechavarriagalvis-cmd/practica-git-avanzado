@@ -141,3 +141,5 @@ Después: 2.1.1
 
 👉 Ejemplo: corriges un error que hacía que el precio total del carrito se calculara mal.
 
+## Primer cambio para la parte 2 del taller
+
